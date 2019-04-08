@@ -1,3 +1,3 @@
-function binaryMatch (arr) {
+function buildHistogram (arr) {
   return arr
 }
