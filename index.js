@@ -5,3 +5,7 @@ function buildHistogram (arr) {
   }
   return hist;
 }
+
+function canBuildNote () {
+  
+}
