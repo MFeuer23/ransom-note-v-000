@@ -7,7 +7,7 @@ function buildHistogram (arr) {
 }
 
 function canBuildNote (magazine, note) {
-  hist = buildHistogram(magazine)
+  let hist = buildHistogram(magazine)
   for (let char of note) {
     if (!hist[`${char}`]) {
       return false
