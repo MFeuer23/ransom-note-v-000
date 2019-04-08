@@ -1,3 +1,3 @@
 function buildHistogram (arr) {
-  return arr
+  console.log(arr)
 }
