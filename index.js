@@ -1,7 +1,7 @@
 function buildHistogram (arr) {
   let hist = [];
   for (let i = 0; i < arr.lengh; i++) {
-    hist.push({})
+    hist.push({arr[i]: 1})
     
   }
   
