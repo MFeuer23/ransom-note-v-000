@@ -6,6 +6,13 @@ function buildHistogram (arr) {
   return hist;
 }
 
-function canBuildNote () {
-  
+function canBuildNote (magazine, note) {
+  hist = buildHistogram(magazine)
+  for (let char of note) {
+    if (!hist[char]) {
+      return false
+    } else {
+      hist[char] = hist
+    }
+  }
 }
