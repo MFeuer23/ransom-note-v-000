@@ -4,5 +4,5 @@ function buildHistogram (arr) {
     hist[`${arr[i]}`] = hist[`${arr[i]}`] + 1 || 1
     console.log(arr[i])
   }
-  console.log(hist)
+
 }
